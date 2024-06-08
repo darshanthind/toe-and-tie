@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+}
+:root{
+    --orage:#ca6811;
+    --textor:#ff0000 !important;
+}
+.top{
+width: 100%;
+height:auto;
+background-color:var(--orage);
+overflow: hidden;
+font-size:large;
+margin:0;
+
+}
+.blog_logo{
+    width: 61.47px;
+    height:30.50px;
+    text-align: center;
+    overflow: hidden;
+    margin:5px 0px 0px 10px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+.text_logo{
+    font-size: 18px;
+    color:var(--textor);
+    font-weight: bold;
+}
+.nav_boundery{
+    width: 100%;
+    height:50px;
+    display:none;
+    overflow: hidden;
+    /* border: 3px solid black; */
+}
+.nav_pos{
+    width: 60%;
+    height: auto;
+    float:right;
+    color:var(--textor) !important;
+    overflow: hidden;
+}
+/* .nav_but{
+    height: auto;
+    padding:0px;
+    margin:0px;
+} */
+.togle_but{
+ margin-left: auto;
+ margin-top:auto;
+}
+.nav_text{
+    color:var(--orage);
+    font-size: larger;
+}
+.nav_li{
+    margin:0px 0px 0px 50px;
+}
+.nav_first{
+    margin:0px 0px 0px 10px;
+}
+.login_Si_but{
+    width: 20%;
+    height:auto;
+margin:0px 0px 0px 170px;
+}
+.btns{
+    background: none;
+    border:none;
+    
+}
+.nav_but1{
+    margin:0px 0px 0px 5px;
+}
+.nav_but2{
+    margin:0px 0px 0px 20px;
+}
+.animatns_change{
+    width:10%;
+    height:100%;
+    
+    overflow: hidden;
+    /* height: auto; */
+
+}
+.navicon{
+    width: 50px;
+    height:50px;
+    float:right;
+
+}
+.btn_arrow{
+    border:none;
+    background:none;
+}
+.Home_content{
+    width:100%;
+    height:500px;
+    background:var(--orage);
+    padding:0px;
+    margin:0px;
+    
+}
+
+@media screen and (max-width:990px) {
+    .nav_boundery{
+        width: 100%;
+        height:max-content;
+      
+        overflow: hidden;
+        /* border: 3px solid black; */
+    }
+    .nav_pos{
+        width: 100%;
+        height: auto;
+        
+        float: none;
+        color:var(--textor) !important;
+        overflow: hidden;
+    }
+    .login_Si_but{
+        width:auto;
+        height:auto;
+    margin:0px 0px 0px 0px;
+    }
+    .nav_li{
+        margin:0px 0px 0px 10px;
+    }
+    .nav_but2{
+        margin:0px 0px 0px 10px;
+    }
+    .nav_but1{
+        margin:0px 0px 0px 10px;
+    }
+    .nav_first{
+        margin:0px 0px 0px 10px;
+    }
+    .animatns_change{
+        width:20%;
+        
+        float:left;
+        height: auto;
+        display: none;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .top{
+        width: 100%;
+        height:auto;
+        background-color:var(--orage);
+        overflow: hidden;
+        font-size:smaller;
+        margin:0;
+        
+        }
+        
+}
+
+@keyframes example {
+    0%{
+    transform: rotate(20deg);
+    
+    }
+    50%{
+    transform: rotate(0deg)
+   }
+}
